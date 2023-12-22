@@ -39,6 +39,8 @@ public class Menu {
 		cp1.visualizar();
 		cp1.depositar(5000.0f);
 		cp1.visualizar();
+		
+		contas.listarTodas();
 
 		while (true) {
 
@@ -63,7 +65,7 @@ public class Menu {
 			System.out.println("Entre com a opção desejada:                          ");
 			System.out.println("                                                     " + Cores.TEXT_RESET);
 
-			opcao = leia.nextInt();
+//			opcao = leia.nextInt();
 
 			try {
 				opcao = leia.nextInt();

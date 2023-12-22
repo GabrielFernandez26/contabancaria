@@ -66,7 +66,7 @@ public class ContaController implements ContaRepository{
 		
 		if (conta != null) {
 			if (conta.sacar(valor)) {
-				System.out.println("\n0 saque na conta numero: " + numero + " foi efetuado com sucesso!");
+				System.out.println("\nO saque na conta numero: " + numero + " foi efetuado com sucesso!");
 			}
 		}else {
 			System.out.println("\nA conta numero: " + numero + " não foi encontrada!");
